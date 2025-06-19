@@ -104,7 +104,7 @@ class Menu:
     def remove_item(self,item_name):
         item= self.find_item(item_name)
         if item:
-            self.items.remove(item_name)
+            self.items.remove(item)
             print(f"{item_name} Delete Successfully!")
         else:
             print(f"{item_name} Could not find in the menu.")
